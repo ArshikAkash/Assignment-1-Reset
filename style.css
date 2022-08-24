@@ -1,0 +1,197 @@
+
+body{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    justify-content: center;
+
+}
+footer{
+    height: 40px;
+    justify-content: center;
+    background-color: rgb(66, 66, 66);
+    color: #FFEEEE;
+    font-family: Poppins;
+}
+.header h1{
+    font-family:aboreto;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    padding: 15% 90px 0px 90px;
+}
+.header p{
+    font-family:aboreto;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+.header h3{
+    font-family:aboreto;
+    color: rgb(221, 239, 255);
+    font-size: 28px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(50, 88, 204);
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 22px;
+}
+.donate{
+    text-align: center;
+    justify-content: center;
+    margin-top: 450px;
+    font-family: Poppins;
+}
+.donate h1{
+    font-weight: 900;
+    font-size: 45px;
+}
+.donate p{
+    color: rgb(143, 143, 143);
+}
+.donate .amount{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.donate .amount h3{
+    padding: 25px;
+    margin: 15px;
+    border: rgb(109, 109, 109) solid 2px;
+    color: rgb(85, 85, 85);
+    background-color: rgba(29, 29, 29, 0.147);
+    border-radius: 7px;
+}
+.donate .amount h3:nth-child(2) {
+    border: rgb(0, 93, 193) solid 2px;
+    color: rgb(18, 85, 218);
+    background-color: rgba(0, 43, 128, 0.147);
+}
+.donate h5{
+    border-bottom: 1px solid rgb(169, 169, 169);
+    margin: 70px 300px 70px 300px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: rgb(169, 169, 169);
+}
+.donate h4{
+    font-family:aboreto;
+    color: rgb(221, 239, 255);
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(50, 88, 204);
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 22px;
+}
+.plan{
+    font-family: Poppins;
+    margin-top: 100px;
+}
+.plan h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.plan p{
+    font-weight: 500;
+    color: grey;
+}
+.plan .plans {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin: 30px;
+}
+.plan .plans .option:nth-child(1){
+    padding: 23px;
+    background-color: #EDF5F6;
+    margin: 30px;
+    border-radius: 7px;
+}
+.plan .plans .option:nth-child(2){
+    padding: 23px;
+    background-color:#FFEEEE ;
+    margin: 30px;
+    border-radius: 7px;
+}
+.plan .plans .option:nth-child(3){
+    padding: 23px;
+    background-color: #FFF4D6;
+    margin: 30px;
+    border-radius: 7px;
+
+}
+.updates{
+    font-family: Poppins;
+    margin-top: 100px;
+}
+.updates h1{
+    font-weight: 900;
+    font-size: 45px;
+}
+.updates p{
+    font-weight: 500;
+    color: grey;
+}
+.mail{
+    height: 250px;
+    width: 600px;
+    background-color: bisque;
+    margin-left: 400px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+.mail input{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    padding-right: 200px;
+    padding-left: 10px;
+    background-color: rgb(198, 198, 198);
+    border: none;
+}
+.mail button{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+    background-color: rgb(255, 103, 103);
+    border: none;
+}
+.mail button:hover{
+    cursor: pointer;
+}
+.mission{
+    font-family: Poppins;
+    margin-top: 100px;
+    
+}
+.mission h1{
+    font-weight: 900;
+    font-size: 45px;
+}
+.part{
+    display: flex;
+    justify-content: center;
+}
+.part img{
+    width: 400px;
+}
+.part p{
+    font-weight: 500;
+    color: grey;
+    padding: 80px;
+}
